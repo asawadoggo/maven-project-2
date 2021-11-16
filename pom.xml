@@ -1,5 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd
+http://maven.apache.org/POM/4.0.0 ">
 
   <modelVersion>4.0.0</modelVersion>
 
@@ -14,8 +15,8 @@
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
-  </properties>       
-         
+  </properties>
+
   <modules>
     <module>server</module>
     <module>webapp</module>
@@ -28,13 +29,13 @@
       <url>file:///tmp/maven-project-site</url>
     </site>
     <snapshotRepository>
-            <id>nexus</id>
-            <url>http://3.95.25.162:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-        <repository>
-            <id>nexus</id>
-            <url>http://3.95.25.162:8081/repository/maven-releases/</url>
-        </repository>
+      <id>nexus</id>
+      <url>http://http://18.207.116.52:8081//repository/maven-snapshots/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus</id>
+      <url>http://http://18.207.116.52:8081//repository/maven-releases/</url>
+    </repository>
   </distributionManagement>
 
   <build>
